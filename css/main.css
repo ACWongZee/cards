@@ -1,0 +1,32 @@
+/*----------General----------*/
+
+html {
+    box-sizing: border-box;
+
+    background-color: #f2f2f2;
+    font-family: Georgia, serif;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
+/*---------Box Style--------*/
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20rem;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+}
